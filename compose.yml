@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  udp_packet_forwarder:
+    build: ./udp_packet_forwarder
+    container_name: udp_packet_forwarder
+    restart: unless-stopped
+    privileged: true
+
+    volumes:
+      - ./global_conf.json:/sx1302_hal/packet_forwarder/global_conf.json:ro
