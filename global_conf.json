@@ -36,7 +36,7 @@
         "radio_0": {
             "enable": true,
             "type": "SX1250",
-            "freq": 867300000,
+            "freq": 864500000,
             "rssi_offset": -215.4,
             "rssi_tcomp": {"coeff_a": 0, "coeff_b": 0, "coeff_c": 20.41, "coeff_d": 2162.56, "coeff_e": 0},
             "tx_enable": true,
@@ -70,11 +70,11 @@
             "tx_enable": false
         },
 
-        "chan_multiSF_0": {"enable": true,  "radio": 0, "if": -400000}, /* 866.9 MHz */
-        "chan_multiSF_1": {"enable": true,  "radio": 0, "if": -200000}, /* 867.1 MHz */
-        "chan_multiSF_2": {"enable": true,  "radio": 0, "if":  0},      /* 867.3 MHz */
-        "chan_multiSF_3": {"enable": true,  "radio": 0, "if":  200000}, /* 867.5 MHz */
-        "chan_multiSF_4": {"enable": true,  "radio": 0, "if":  400000}, /* 867.7 MHz */
+        "chan_multiSF_0": {"enable": true,  "radio": 0, "if": -400000}, /* 864.1 MHz */
+        "chan_multiSF_1": {"enable": true,  "radio": 0, "if": -200000}, /* 864.3 MHz */
+        "chan_multiSF_2": {"enable": true,  "radio": 0, "if":  0},      /* 864.5 MHz */
+        "chan_multiSF_3": {"enable": true,  "radio": 0, "if":  200000}, /* 864.7 MHz */
+        "chan_multiSF_4": {"enable": true,  "radio": 0, "if":  400000}, /* 864.9 MHz */
 
         "chan_multiSF_5": {"enable": true,  "radio": 1, "if":  0},      /* 868.9 MHz */
         "chan_multiSF_6": {"enable": true,  "radio": 1, "if":  200000}, /* 869.1 MHz */
@@ -86,9 +86,9 @@
     },
 
     "gateway_conf": {
-        "gateway_ID": "0102030405060708",
+        "gateway_ID": "0016c001f11052a0",
         /* change with default server address/ports */
-        "server_address": "127.0.0.1",
+        "server_address": "10.80.80.8",
         "serv_port_up": 1700,
         "serv_port_down": 1700,
         /* adjust the following parameters for your network */
