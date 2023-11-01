@@ -5,7 +5,9 @@ services:
     build: ./udp_packet_forwarder
     container_name: udp_packet_forwarder
     restart: unless-stopped
-    privileged: true
 
     volumes:
       - ./global_conf.json:/sx1302_hal/packet_forwarder/global_conf.json:ro
+    
+    devices:
+      - /dev/ttyACM0:/dev/ttyACM0
